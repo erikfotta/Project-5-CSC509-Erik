@@ -3,7 +3,7 @@
 //: countClumps([1, 2, 2, 3, 4, 4]) → 2
 //: countClumps([1, 1, 2, 1, 1]) → 2
 //: countClumps([1, 1, 1, 1, 1]) → 1
-//: [Link!](https://codingbat.com/prob/p193817)
+//: [Link to the Problem!](https://codingbat.com/prob/p193817)
 
 import Cocoa
 

@@ -19,11 +19,8 @@ for num in testArray {
     sum += num
 }
 
-// Check if odd; if odd it cannot be split evenly
-if sum % 2 != 0 {
-    print("False")
-// Count up until the half way split is hit or overshot
-} else {
+// Check if even; can only be split evenly if even
+if sum % 2 == 0 {
     for i in testArray {
         if curTotal < sum/2 {
             curTotal += i
@@ -35,4 +32,6 @@ if sum % 2 != 0 {
             break
         }
     }
+} else {
+    print("False")
 }
