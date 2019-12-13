@@ -12,12 +12,12 @@ for number in intcode {
     if indx % 4 == 0 {
         // opcode 1
         if number == 1 {
-            let sumCode = intcode[indx+1] + intcode[indx+2]
-            intcode[indx+3] = sumCode
+            let sumCode = intcode[intcode[indx+1]] + intcode[intcode[indx+2]]
+            intcode[intcode[indx+3]] = sumCode
         // opcode 2
         } else if number == 2 {
-            let productCode = intcode[indx+1] * intcode[indx+2]
-            intcode[indx+3] = productCode
+            let productCode = intcode[intcode[indx+1]] * intcode[intcode[indx+2]]
+            intcode[intcode[indx+3]] = productCode
         // opcode 99
         } else if number == 99 {
             break
