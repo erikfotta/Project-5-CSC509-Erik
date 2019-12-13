@@ -1,5 +1,5 @@
 # Project 5 CSC509 Fotta
-Erik Fotta
+__Erik Fotta__
 
 This repository is a compilation of problem solutions for basic array manipulation problems. The problems were source from [CodingBat](https://codingbat.com/java) and [Project Euler](https://projecteuler.net/problem=22). Files in this repository are organized by the source from which they came. 
 
